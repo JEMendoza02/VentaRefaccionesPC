@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+/* Estilos del menú de navegación */
+.navbar {
+    background-color: #f3e5b9;
+    padding: 10px 0;
+  }
+  
+  .navbar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    margin-right: 10px;
+  }
+  
+  .search-bar button {
+    padding: 8px 16px;
+    background-color: #E0E0E0;
+    border: none;
+    border-radius: 4px;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .nav-buttons {
+    display: flex; /* Cambio importante: usar flexbox para la distribución de los botones */
+    align-items: center;
+    gap: 10px; /* Espaciado entre los botones */
+  }
+  
+  .nav-buttons button {
+    padding: 8px 16px;
+    background-color: #FFF;
+    border: 2px solid #E0E0E0;
+    border-radius: 4px;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-buttons button:hover {
+    background-color: #E0E0E0;
+  }
+
+
+/* Estilos de la tabla */
+.table th, .table td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+/* Estilos del total */
+.total {
+    text-align: right;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* Estilos del botón de pagar */
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,356 @@
+/* styles.css */
+
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos del menú de navegación */
+.navbar {
+  background-color: #f3e5b9;
+  padding: 10px 0;
+}
+
+.navbar .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input[type="text"] {
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+  margin-right: 10px;
+}
+
+.search-bar button {
+  padding: 8px 16px;
+  background-color: #E0E0E0;
+  border: none;
+  border-radius: 4px;
+  color: #333;
+  cursor: pointer;
+}
+
+.nav-buttons {
+  display: flex; /* Cambio importante: usar flexbox para la distribución de los botones */
+  align-items: center;
+  gap: 10px; /* Espaciado entre los botones */
+}
+
+.nav-buttons button {
+  padding: 8px 16px;
+  background-color: #FFF;
+  border: 2px solid #E0E0E0;
+  border-radius: 4px;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nav-buttons button:hover {
+  background-color: #E0E0E0;
+}
+
+
+/* Fuente atractiva */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+/* Estilos de la sección del curso */
+.course-section {
+    background-color: rgba(0,0,0,0.5);
+    background-image: url("images.jpg");
+    background-blend-mode: darken;
+    background-size: cover;
+    padding: 50px;
+    overflow: hidden;
+    margin-top: 100px;
+    position: relative;
+  }
+  .course-description {
+    color: #FFF;
+  }
+  
+  .course-info {
+    width: 60%;
+    float: left;
+    color: #fff;
+  }
+  
+  .course-info h2 {
+    font-family: "Arial", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .course-info p {
+    font-family: "Arial", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #fff;
+  }
+  
+.course-preview {
+  width: 20%;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  margin-top: 90px; /* Ajusta el margen superior según sea necesario */
+  margin-right: 300px;
+}
+
+  .course-preview h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .course-preview p {
+    font-size: 16px;
+  }
+  
+  .course-preview a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #FED136;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .course-preview-description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    opacity: 0.9;
+  }
+
+  .course-preview-description h3 {
+    font-family: "Nombre de la fuente", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .course-preview-description p {
+    font-family: "Nombre de la fuente", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .course-preview-description .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Nombre de la fuente", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .course-preview-description .btn:hover {
+    background-color: #333;
+  }
+
+  .course-details-section {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 700px;
+  }
+  
+  .course-details-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .course-details-section .course-details-content {
+    font-size: 18px;
+  }
+  
+  .course-details-section .course-details-content strong {
+    font-weight: bold;
+  }
+
+  .benefits-section {
+  text-align: center;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.benefits-section h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.benefits-section p {
+  font-size: 18px;
+}
+
+.benefits-section .benefits-title {
+  font-size: 32px;
+  color: red;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.benefits-section .benefits-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.benefits-section .benefit {
+  width: 23%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.benefits-section .benefit img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.benefits-section .benefit h4 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.benefits-section .benefit p {
+  font-size: 18px;
+}
+
+.certificate-section {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 40px;
+}
+
+.certificate-image {
+  flex: 1;
+  margin-right: 40px;
+}
+
+.certificate-image img {
+  max-width: 100%;
+}
+
+.certificate-description {
+  flex: 1;
+}
+
+.certificate-description h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.certificate-description p {
+  font-size: 18px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.footer-info {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  color: #000; /* Cambio de color de fuente a negro */
+}
+
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.footer-box {
+  width: 25%;
+}
+
+.footer-box h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-box p {
+  font-size: 14px;
+  color: #000; /* Cambio de color de fuente a negro */
+}
+
+.footer-pricing {
+  text-align: center;
+}
+
+.enroll-button {
+  background-color: orange;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.pricing-details {
+  font-size: 14px;
+  color: #000; /* Cambio de color de fuente a negro */
+}
+
+.regular-price {
+  text-decoration: line-through;
+}
+
+.promotion-price {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+
+
+
+  
+  
+  

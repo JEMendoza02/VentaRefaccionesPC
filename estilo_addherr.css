@@ -1,0 +1,87 @@
+body {
+    background-image: url("fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .add-form {
+    background-color: white;
+    padding: 40px;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .form-control {
+    border-radius: 10px;
+  }
+  
+  .logo {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+/* Estilos del menú de navegación */
+.navbar {
+    background-color: #f3e5b9;
+    padding: 10px 0;
+  }
+  
+  .navbar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    margin-right: 10px;
+  }
+  
+  .search-bar button {
+    padding: 8px 16px;
+    background-color: #E0E0E0;
+    border: none;
+    border-radius: 4px;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .nav-buttons {
+    display: flex; /* Cambio importante: usar flexbox para la distribución de los botones */
+    align-items: center;
+    gap: 10px; /* Espaciado entre los botones */
+  }
+  
+  .nav-buttons button {
+    padding: 8px 16px;
+    background-color: #FFF;
+    border: 2px solid #E0E0E0;
+    border-radius: 4px;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-buttons button:hover {
+    background-color: #E0E0E0;
+  }
+  

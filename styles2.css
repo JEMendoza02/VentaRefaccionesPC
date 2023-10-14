@@ -1,0 +1,13 @@
+.custom-bg {
+    background-color: rgba(0, 0, 0, 0.8); /* Color de fondo con transparencia */
+  }
+  
+  .text-light {
+    color: #ffffff; /* Color de fuente en blanco */
+  }
+  .electronic-analog-box {
+    background-color: #00FFFF;
+    opacity: 0.8; /* Ajusta la opacidad según tu preferencia */
+    color: #ffffff; /* Asegura que el texto tenga contraste con el fondo */
+  }
+    
